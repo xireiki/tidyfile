@@ -3,9 +3,9 @@
   "author": "哔哩哔哩@Gulanguage",
   "author_email": "xiayinlily@163.com",
   "version_info": {
-    "version_number": 107,
-    "version": "1.0.7",
-    "version_text": "    1.增加强制执行选项",
+    "version_number": 108,
+    "version": "1.0.8",
+    "version_text": "    1.修复文件类型重复的bug",
     "update_url": "https://lyhiauaning.github.io/tidyfile/tidyfile.py"
   }
 }

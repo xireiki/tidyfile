@@ -18,8 +18,8 @@ args = parser.parse_args();
 name="tidyfile";
 author="哔哩哔哩@Gulanguage";
 blog="https://github.com/lyhiauaning/";
-version_number=107;
-version="1.0.7";
+version_number=108;
+version="1.0.8";
 
 if args.i:
   if not args.i.endswith("/"):
@@ -84,7 +84,7 @@ for folder in other_folder:
     os.mkdir(outpath + "others/" + folder);
 
 file_img = ["bmp","png","jpg","jepg","ico","gif"];
-file_doc = ["doc","docx","xls","txt","ppt","pdf","epub","pdf"];
+file_doc = ["doc","docx","xls","txt","ppt","pdf","epub"];
 file_audio = ["mp3","wav","flac","ogg","aac","aiff","wma","vqf","ape","amr"];
 file_video = ["mp4","flv","m4a","wmv","asf","asx","3gp","mov","m4v","avi","dat","mkv","vob","amv"];
 file_back = ["bak"];
