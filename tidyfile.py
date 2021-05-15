@@ -17,7 +17,7 @@ args = parser.parse_args();
 #版本信息
 name="tidyfile";
 author="哔哩哔哩@Gulanguage";
-blog="https://xireiki.cn/";
+blog="https://github.com/lyhiauaning/";
 version_number=107;
 version="1.0.7";
 
@@ -34,7 +34,7 @@ elif args.v:
   sys.exit(0);
 elif args.update:
   print("正在检查更新...",end="");
-  update = requests.get("http://localhost:1029/update.json");
+  update = requests.get("https://lyhiauaning.github.io/tidyfile/update.json");
   ujtext = json.loads(update.text);
   def update():
     tidyfile = requests.get(ujtext["version_info"]["update_url"]);
