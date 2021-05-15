@@ -1,0 +1,11 @@
+{
+  "name": "tidyfile",
+  "author": "哔哩哔哩@Gulanguage",
+  "author_email": "xiayinlily@163.com",
+  "version_info": {
+    "version_number": 107,
+    "version": "1.0.7",
+    "version_text": "    1.增加强制执行选项",
+    "update_url": "http://localhost:1029/tidyfile.py"
+  }
+}
