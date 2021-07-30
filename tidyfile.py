@@ -19,8 +19,8 @@ def main():
   name="tidyfile";
   author="哔哩哔哩@Gulanguage";
   blog="https://github.com/xireiki/";
-  version_number=108;
-  version="1.0.8";
+  version_number=109;
+  version="1.0.9";
   
   if args.i:
     if not args.i.endswith("/"):

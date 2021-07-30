@@ -3,9 +3,9 @@
   "author": "哔哩哔哩@Gulanguage",
   "author_email": "xiayinlily@163.com",
   "version_info": {
-    "version_number": 108,
-    "version": "1.0.8",
-    "version_text": "    1.修复文件类型重复的bug",
+    "version_number": 109,
+    "version": "1.0.9",
+    "version_text": "    1.兼容中央激活框架（CentralActivationFramework）",
     "update_url": "https://xireiki.github.io/tidyfile/tidyfile.py"
   }
 }
