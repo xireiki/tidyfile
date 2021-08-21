@@ -110,8 +110,8 @@ def main():
   name = "tidyfile";
   author = "Github@xireiki";
   blog = "https://github.com/xireiki";
-  version_number = 111;
-  version = "1.0.11";
+  version_number = 112;
+  version = "1.0.12";
   updateUrl = "https://tidyfile.xireiki.com/update.json";
   
   if args.i:
