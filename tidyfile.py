@@ -19,8 +19,8 @@ def main():
   name="tidyfile";
   author="哔哩哔哩@Gulanguage";
   blog="https://github.com/xireiki/";
-  version_number=110;
-  version="1.0.10";
+  version_number=111;
+  version="1.0.11";
   
   if args.i:
     if not args.i.endswith("/"):
@@ -161,7 +161,7 @@ def main():
       print(path + file_name + " >>> " + outpath + "others/" + file_name)
       os.rename(path + file_name,outpath + "others/" + file_name)
 
-def cafmain(path, filename, name):
+def cbm_main(path, filename, name):
   main();
 
 if __name__ == "__main__":

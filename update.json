@@ -3,9 +3,10 @@
   "author": "哔哩哔哩@Gulanguage",
   "author_email": "xiayinlily@163.com",
   "version_info": {
-    "version_number": 110,
-    "version": "1.0.10",
-    "version_text": "    1.更新脚本更新地址，国内速度更快了！",
+    "version_number": 111,
+    "version": "1.0.11",
+    "version_text": "    1.支持本人暂不开源的cbm\n\
+    2.更新README.md",
     "update_url": "https://tidyfile.xireiki.com/tidyfile.py"
   }
 }
