@@ -4,7 +4,7 @@ import argparse
 import sys
 import platform
 import requests
-import json
+import json5 as json
 
 def main():
   parser = argparse.ArgumentParser(description="这是一个用于整理文件夹的python脚本")
@@ -35,7 +35,7 @@ def main():
     sys.exit(0);
   elif args.update:
     print("正在检查更新...",end="");
-    update = requests.get("https://xireiki.github.io/tidyfile/update.json");
+    update = requests.get("https://tidyfile.xireiki.com/update.json");
     ujtext = json.loads(update.text);
     def update():
       tidyfile = requests.get(ujtext["version_info"]["update_url"]);
